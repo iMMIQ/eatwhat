@@ -1,17 +1,19 @@
 # Validation record
 
-Checked in the implementation workspace on 2026-09-18:
+Verified on 2026-09-18 in [GitHub Actions run 35319087582](https://github.com/iMMIQ/eatwhat/actions/runs/35319087582).
 
-- PASS: 7 Python catalog-tool tests (validity, exact duplicate merge, conflicting merge, alias collisions, unknown sources, missing knowledge and numeric bounds).
-- PASS: bundled catalog coverage check: 72 dishes, 9 primary categories, 70 time estimates, 0 complete ingredient lists, 0 geographic annotations.
-- PASS: Python syntax compilation for the wrapper, examples/tools/tests as applicable.
-- PASS: TOML parsing for Cargo.toml and pyproject.toml.
+Tested code commit: `9a4d97eff8e8287e51766ff6cd42d2d3560fb280`.
 
-Not executed locally:
+All 7 CI jobs passed:
 
-- Rust compilation, cargo test and clippy.
-- Building a Python native wheel and running binding integration tests.
+- Rust: 12 integration tests, `cargo clippy --all-targets -- -D warnings`, and the Rust example.
+- Python: native extension built and installed on Linux, macOS and Windows, each with Python 3.10 and 3.13.
+- Each Python job ran 14 tests (7 catalog-tool tests and 7 binding tests), the catalog coverage command and the Python example.
 
-The workspace has no Rust toolchain. The system package installation failed on container permissions; the official rustup download timed out at the network proxy. No successful compile or Rust test result is claimed.
+The first run exposed a Windows default-encoding issue in a test fixture reader. The reader now explicitly uses UTF-8; the catalog CLI and example also emit UTF-8. The successful run above includes these fixes.
 
-`.github/workflows/ci.yml` defines these remaining checks for GitHub Actions. A passing CI run is required before treating the native extension as verified. No crates.io or PyPI release has been made.
+The bundled catalog contains 72 dishes in 9 categories, 70 time estimates, no complete ingredient lists and no geographic annotations. These are starter data, not an exhaustive or allergy-verified food database.
+
+Local checks also passed: catalog tests, Python syntax checks and TOML parsing. Native compilation was verified on GitHub-hosted runners because the implementation workspace lacked a Rust toolchain.
+
+No crates.io or PyPI release has been made. These tests do not establish compatibility with every Python/Rust version, CPU architecture or third-party catalog.
