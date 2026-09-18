@@ -33,7 +33,7 @@ class BindingTests(unittest.TestCase):
 
     def test_custom_pack_path_and_dict(self):
         path = Path(__file__).parents[1] / "data" / "core.json"
-        pack = json.loads(path.read_text())
+        pack = json.loads(path.read_text(encoding="utf-8"))
         self.assertEqual(recommend(catalog=path, seed=42), recommend(catalog=pack, seed=42))
 
     def test_incomplete_ingredients(self):

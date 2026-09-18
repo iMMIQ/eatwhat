@@ -7,6 +7,7 @@ import argparse
 from collections import Counter
 import json
 import math
+import sys
 from pathlib import Path
 
 
@@ -86,6 +87,8 @@ def merge(packs, pack_id, version):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
     check = sub.add_parser("check")
