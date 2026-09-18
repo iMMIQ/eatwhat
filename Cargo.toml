@@ -1,0 +1,23 @@
+[package]
+name = "eatwhat"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+description = "Offline, constraint-aware food recommendations with extensible catalogs"
+license = "MIT"
+readme = "README.md"
+
+[lib]
+name = "eatwhat"
+crate-type = ["rlib", "cdylib"]
+
+[features]
+default = []
+python = ["dep:pyo3", "pyo3/extension-module"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "=0.8.5"
+rand_chacha = "=0.3.1"
+pyo3 = { version = "0.23.5", optional = true, features = ["abi3-py310"] }

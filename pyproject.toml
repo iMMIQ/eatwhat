@@ -1,0 +1,17 @@
+[build-system]
+requires = ["maturin>=1.7,<2"]
+build-backend = "maturin"
+
+[project]
+name = "eatwhat"
+version = "0.1.0"
+description = "Offline food recommendations powered by Rust"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = ["Programming Language :: Rust", "Programming Language :: Python :: 3"]
+
+[tool.maturin]
+features = ["python"]
+python-source = "python"
+module-name = "eatwhat._native"

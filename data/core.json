@@ -1,0 +1,2403 @@
+{
+  "schema_version": 1,
+  "id": "eatwhat-core",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "id": "editorial-v1",
+      "title": "Initial editorial seed catalog",
+      "license": "MIT",
+      "reference": "data/PROVENANCE.md"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "core_0001",
+      "name": "蛋炒饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "炒",
+        "家常"
+      ],
+      "ingredients": [
+        "鸡蛋",
+        "米饭"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food",
+        "quick_meal"
+      ],
+      "minutes_max": 15,
+      "cost_max_fen": 800,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0002",
+      "name": "扬州炒饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "炒",
+        "鲜香"
+      ],
+      "ingredients": [
+        "鸡蛋",
+        "米饭",
+        "虾仁",
+        "火腿"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0003",
+      "name": "咖喱鸡饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "炖",
+        "浓郁"
+      ],
+      "ingredients": [
+        "鸡肉",
+        "米饭",
+        "土豆",
+        "咖喱"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 40,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0004",
+      "name": "番茄牛腩饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "炖",
+        "酸鲜"
+      ],
+      "ingredients": [
+        "牛肉",
+        "番茄",
+        "米饭"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "weekend"
+      ],
+      "minutes_max": 100,
+      "cost_max_fen": 3000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0005",
+      "name": "照烧鸡腿饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "煎",
+        "甜咸"
+      ],
+      "ingredients": [
+        "鸡肉",
+        "米饭"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 30,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0006",
+      "name": "台式卤肉饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "炖",
+        "浓郁"
+      ],
+      "ingredients": [
+        "猪肉",
+        "米饭"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "weekend"
+      ],
+      "minutes_max": 90,
+      "cost_max_fen": 2500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0007",
+      "name": "香菇滑鸡饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "蒸",
+        "鲜香"
+      ],
+      "ingredients": [
+        "鸡肉",
+        "香菇",
+        "米饭"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 45,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0008",
+      "name": "咸肉菜饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "焖",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "猪肉",
+        "青菜",
+        "米饭"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 45,
+      "cost_max_fen": 1800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0009",
+      "name": "腊肠煲仔饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "焖",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "腊肠",
+        "米饭"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 50,
+      "cost_max_fen": 2500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0010",
+      "name": "韩式拌饭",
+      "aliases": [],
+      "category": "米饭",
+      "regions": [],
+      "tags": [
+        "拌",
+        "香辣"
+      ],
+      "ingredients": [
+        "米饭",
+        "鸡蛋",
+        "蔬菜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 35,
+      "cost_max_fen": 2500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0011",
+      "name": "番茄鸡蛋面",
+      "aliases": [
+        "西红柿鸡蛋面"
+      ],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "汤面",
+        "酸鲜"
+      ],
+      "ingredients": [
+        "番茄",
+        "鸡蛋",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 1000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0012",
+      "name": "葱油拌面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "拌面",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "葱",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 1000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0013",
+      "name": "炸酱面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "拌面",
+        "浓郁"
+      ],
+      "ingredients": [
+        "猪肉",
+        "小麦",
+        "黄豆"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 40,
+      "cost_max_fen": 1800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0014",
+      "name": "红烧牛肉面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "汤面",
+        "浓郁"
+      ],
+      "ingredients": [
+        "牛肉",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "weekend"
+      ],
+      "minutes_max": 120,
+      "cost_max_fen": 3000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0015",
+      "name": "担担面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "拌面",
+        "麻辣"
+      ],
+      "ingredients": [
+        "猪肉",
+        "小麦",
+        "花生"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 40,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0016",
+      "name": "油泼面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "拌面",
+        "香辣"
+      ],
+      "ingredients": [
+        "小麦",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 30,
+      "cost_max_fen": 1200,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0017",
+      "name": "热干面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "拌面",
+        "浓郁"
+      ],
+      "ingredients": [
+        "小麦",
+        "芝麻"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1200,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0018",
+      "name": "豆角焖面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "焖",
+        "家常"
+      ],
+      "ingredients": [
+        "猪肉",
+        "小麦",
+        "豆角"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food"
+      ],
+      "minutes_max": 40,
+      "cost_max_fen": 1800,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0019",
+      "name": "意式肉酱面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "拌面",
+        "酸鲜"
+      ],
+      "ingredients": [
+        "小麦",
+        "牛肉",
+        "番茄"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 50,
+      "cost_max_fen": 2500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0020",
+      "name": "日式乌冬面",
+      "aliases": [],
+      "category": "面食",
+      "regions": [],
+      "tags": [
+        "汤面",
+        "清淡"
+      ],
+      "ingredients": [
+        "小麦",
+        "海带"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0021",
+      "name": "酸辣粉",
+      "aliases": [],
+      "category": "粉类",
+      "regions": [],
+      "tags": [
+        "汤粉",
+        "酸辣"
+      ],
+      "ingredients": [
+        "红薯",
+        "花生",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1200,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0022",
+      "name": "螺蛳粉",
+      "aliases": [],
+      "category": "粉类",
+      "regions": [],
+      "tags": [
+        "汤粉",
+        "酸辣"
+      ],
+      "ingredients": [
+        "稻米",
+        "酸笋",
+        "花生"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0023",
+      "name": "桂林米粉",
+      "aliases": [],
+      "category": "粉类",
+      "regions": [],
+      "tags": [
+        "米粉",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "稻米",
+        "猪肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": null,
+      "cost_max_fen": null,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0024",
+      "name": "过桥米线",
+      "aliases": [],
+      "category": "粉类",
+      "regions": [],
+      "tags": [
+        "汤粉",
+        "鲜香"
+      ],
+      "ingredients": [
+        "稻米",
+        "鸡肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day"
+      ],
+      "minutes_max": null,
+      "cost_max_fen": null,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0025",
+      "name": "干炒牛河",
+      "aliases": [],
+      "category": "粉类",
+      "regions": [],
+      "tags": [
+        "炒",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "稻米",
+        "牛肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0026",
+      "name": "炒米粉",
+      "aliases": [],
+      "category": "粉类",
+      "regions": [],
+      "tags": [
+        "炒",
+        "家常"
+      ],
+      "ingredients": [
+        "稻米",
+        "鸡蛋",
+        "蔬菜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food",
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1200,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0027",
+      "name": "宫保鸡丁",
+      "aliases": [
+        "宫爆鸡丁"
+      ],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炒",
+        "香辣"
+      ],
+      "ingredients": [
+        "鸡肉",
+        "花生",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 35,
+      "cost_max_fen": 1800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0028",
+      "name": "鱼香肉丝",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炒",
+        "酸甜"
+      ],
+      "ingredients": [
+        "猪肉",
+        "木耳",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 35,
+      "cost_max_fen": 1800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0029",
+      "name": "回锅肉",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炒",
+        "香辣"
+      ],
+      "ingredients": [
+        "猪肉",
+        "蒜苗"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 45,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0030",
+      "name": "糖醋排骨",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炖",
+        "酸甜"
+      ],
+      "ingredients": [
+        "猪肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "weekend"
+      ],
+      "minutes_max": 60,
+      "cost_max_fen": 3000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0031",
+      "name": "红烧肉",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炖",
+        "甜咸"
+      ],
+      "ingredients": [
+        "猪肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "weekend"
+      ],
+      "minutes_max": 100,
+      "cost_max_fen": 3000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0032",
+      "name": "可乐鸡翅",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炖",
+        "甜咸"
+      ],
+      "ingredients": [
+        "鸡肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 40,
+      "cost_max_fen": 2500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0033",
+      "name": "辣椒炒肉",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炒",
+        "香辣"
+      ],
+      "ingredients": [
+        "猪肉",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0034",
+      "name": "土豆炖牛肉",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炖",
+        "浓郁"
+      ],
+      "ingredients": [
+        "牛肉",
+        "土豆"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "weekend"
+      ],
+      "minutes_max": 120,
+      "cost_max_fen": 3500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0035",
+      "name": "孜然羊肉",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炒",
+        "香辣"
+      ],
+      "ingredients": [
+        "羊肉",
+        "孜然"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 30,
+      "cost_max_fen": 3500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0036",
+      "name": "啤酒鸭",
+      "aliases": [],
+      "category": "荤菜",
+      "regions": [],
+      "tags": [
+        "炖",
+        "浓郁"
+      ],
+      "ingredients": [
+        "鸭肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "weekend"
+      ],
+      "minutes_max": 80,
+      "cost_max_fen": 3500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0037",
+      "name": "番茄炒蛋",
+      "aliases": [
+        "西红柿炒鸡蛋",
+        "西红柿炒蛋"
+      ],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "炒",
+        "酸鲜",
+        "家常"
+      ],
+      "ingredients": [
+        "番茄",
+        "鸡蛋"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food",
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 1000,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0038",
+      "name": "酸辣土豆丝",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "炒",
+        "酸辣"
+      ],
+      "ingredients": [
+        "土豆",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0039",
+      "name": "蒜蓉西兰花",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "炒",
+        "清淡"
+      ],
+      "ingredients": [
+        "西兰花",
+        "大蒜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 1000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0040",
+      "name": "手撕包菜",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "炒",
+        "香辣"
+      ],
+      "ingredients": [
+        "包菜",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0041",
+      "name": "地三鲜",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "炒",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "土豆",
+        "茄子",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 35,
+      "cost_max_fen": 1200,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0042",
+      "name": "麻婆豆腐",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "炖",
+        "麻辣"
+      ],
+      "ingredients": [
+        "黄豆",
+        "牛肉",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0043",
+      "name": "家常豆腐",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "炒",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "黄豆",
+        "猪肉",
+        "木耳"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 35,
+      "cost_max_fen": 1500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0044",
+      "name": "韭菜炒蛋",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "炒",
+        "家常"
+      ],
+      "ingredients": [
+        "韭菜",
+        "鸡蛋"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food",
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 1000,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0045",
+      "name": "清蒸南瓜",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "蒸",
+        "清甜"
+      ],
+      "ingredients": [
+        "南瓜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 30,
+      "cost_max_fen": 800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0046",
+      "name": "凉拌黄瓜",
+      "aliases": [],
+      "category": "蔬菜豆蛋",
+      "regions": [],
+      "tags": [
+        "凉拌",
+        "清爽"
+      ],
+      "ingredients": [
+        "黄瓜",
+        "大蒜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 15,
+      "cost_max_fen": 800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0047",
+      "name": "清蒸鲈鱼",
+      "aliases": [],
+      "category": "水产",
+      "regions": [],
+      "tags": [
+        "蒸",
+        "清淡"
+      ],
+      "ingredients": [
+        "鲈鱼"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 35,
+      "cost_max_fen": 3500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0048",
+      "name": "白灼虾",
+      "aliases": [],
+      "category": "水产",
+      "regions": [],
+      "tags": [
+        "煮",
+        "清淡"
+      ],
+      "ingredients": [
+        "虾"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 3500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0049",
+      "name": "蒜蓉粉丝蒸虾",
+      "aliases": [],
+      "category": "水产",
+      "regions": [],
+      "tags": [
+        "蒸",
+        "鲜香"
+      ],
+      "ingredients": [
+        "虾",
+        "绿豆",
+        "大蒜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 35,
+      "cost_max_fen": 3500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0050",
+      "name": "酸菜鱼",
+      "aliases": [],
+      "category": "水产",
+      "regions": [],
+      "tags": [
+        "煮",
+        "酸鲜"
+      ],
+      "ingredients": [
+        "鱼",
+        "酸菜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 50,
+      "cost_max_fen": 4000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0051",
+      "name": "水煮鱼",
+      "aliases": [],
+      "category": "水产",
+      "regions": [],
+      "tags": [
+        "煮",
+        "麻辣"
+      ],
+      "ingredients": [
+        "鱼",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 50,
+      "cost_max_fen": 4000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0052",
+      "name": "虾仁滑蛋",
+      "aliases": [],
+      "category": "水产",
+      "regions": [],
+      "tags": [
+        "炒",
+        "清淡"
+      ],
+      "ingredients": [
+        "虾",
+        "鸡蛋"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "quick_meal"
+      ],
+      "minutes_max": 20,
+      "cost_max_fen": 2500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0053",
+      "name": "紫菜蛋花汤",
+      "aliases": [],
+      "category": "汤粥",
+      "regions": [],
+      "tags": [
+        "汤",
+        "清淡"
+      ],
+      "ingredients": [
+        "紫菜",
+        "鸡蛋"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "quick_meal"
+      ],
+      "minutes_max": 15,
+      "cost_max_fen": 800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0054",
+      "name": "玉米排骨汤",
+      "aliases": [],
+      "category": "汤粥",
+      "regions": [],
+      "tags": [
+        "汤",
+        "鲜香"
+      ],
+      "ingredients": [
+        "玉米",
+        "猪肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "weekend"
+      ],
+      "minutes_max": 90,
+      "cost_max_fen": 2500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0055",
+      "name": "冬瓜虾皮汤",
+      "aliases": [],
+      "category": "汤粥",
+      "regions": [],
+      "tags": [
+        "汤",
+        "清淡"
+      ],
+      "ingredients": [
+        "冬瓜",
+        "虾"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0056",
+      "name": "菌菇豆腐汤",
+      "aliases": [],
+      "category": "汤粥",
+      "regions": [],
+      "tags": [
+        "汤",
+        "清淡"
+      ],
+      "ingredients": [
+        "菌菇",
+        "黄豆"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "quick_meal"
+      ],
+      "minutes_max": 25,
+      "cost_max_fen": 1200,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0057",
+      "name": "皮蛋瘦肉粥",
+      "aliases": [],
+      "category": "汤粥",
+      "regions": [],
+      "tags": [
+        "粥",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "稻米",
+        "鸭蛋",
+        "猪肉"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "weekend"
+      ],
+      "minutes_max": 60,
+      "cost_max_fen": 1500,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0058",
+      "name": "小米南瓜粥",
+      "aliases": [],
+      "category": "汤粥",
+      "regions": [],
+      "tags": [
+        "粥",
+        "清甜"
+      ],
+      "ingredients": [
+        "小米",
+        "南瓜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day"
+      ],
+      "minutes_max": 45,
+      "cost_max_fen": 800,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0059",
+      "name": "猪肉白菜饺子",
+      "aliases": [],
+      "category": "包饺饼",
+      "regions": [],
+      "tags": [
+        "煮",
+        "家常"
+      ],
+      "ingredients": [
+        "猪肉",
+        "白菜",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food",
+        "weekend"
+      ],
+      "minutes_max": 90,
+      "cost_max_fen": 2500,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0060",
+      "name": "韭菜鸡蛋饺子",
+      "aliases": [],
+      "category": "包饺饼",
+      "regions": [],
+      "tags": [
+        "煮",
+        "家常"
+      ],
+      "ingredients": [
+        "韭菜",
+        "鸡蛋",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food",
+        "weekend"
+      ],
+      "minutes_max": 90,
+      "cost_max_fen": 2000,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0061",
+      "name": "鲜肉馄饨",
+      "aliases": [],
+      "category": "包饺饼",
+      "regions": [],
+      "tags": [
+        "汤",
+        "鲜香"
+      ],
+      "ingredients": [
+        "猪肉",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "weekend"
+      ],
+      "minutes_max": 70,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0062",
+      "name": "锅贴",
+      "aliases": [],
+      "category": "包饺饼",
+      "regions": [],
+      "tags": [
+        "煎",
+        "酥脆"
+      ],
+      "ingredients": [
+        "猪肉",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "weekend"
+      ],
+      "minutes_max": 80,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0063",
+      "name": "葱油饼",
+      "aliases": [],
+      "category": "包饺饼",
+      "regions": [],
+      "tags": [
+        "煎",
+        "酥脆"
+      ],
+      "ingredients": [
+        "葱",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 50,
+      "cost_max_fen": 1000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0064",
+      "name": "鸡蛋三明治",
+      "aliases": [],
+      "category": "包饺饼",
+      "regions": [],
+      "tags": [
+        "面包",
+        "家常"
+      ],
+      "ingredients": [
+        "鸡蛋",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food",
+        "quick_meal"
+      ],
+      "minutes_max": 15,
+      "cost_max_fen": 1500,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0065",
+      "name": "鸡肉卷饼",
+      "aliases": [],
+      "category": "包饺饼",
+      "regions": [],
+      "tags": [
+        "饼",
+        "咸鲜"
+      ],
+      "ingredients": [
+        "鸡肉",
+        "小麦",
+        "生菜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 30,
+      "cost_max_fen": 2000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0066",
+      "name": "鲜肉包子",
+      "aliases": [],
+      "category": "包饺饼",
+      "regions": [],
+      "tags": [
+        "蒸",
+        "家常"
+      ],
+      "ingredients": [
+        "猪肉",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner",
+        "breakfast"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "comfort_food",
+        "weekend"
+      ],
+      "minutes_max": 150,
+      "cost_max_fen": 2000,
+      "familiarity": 0.8,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0067",
+      "name": "新疆大盘鸡",
+      "aliases": [],
+      "category": "特色餐",
+      "regions": [],
+      "tags": [
+        "炖",
+        "香辣"
+      ],
+      "ingredients": [
+        "鸡肉",
+        "土豆",
+        "小麦"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "weekend"
+      ],
+      "minutes_max": 70,
+      "cost_max_fen": 4000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0068",
+      "name": "椰子鸡火锅",
+      "aliases": [],
+      "category": "特色餐",
+      "regions": [],
+      "tags": [
+        "火锅",
+        "清甜"
+      ],
+      "ingredients": [
+        "鸡肉",
+        "椰子"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day",
+        "weekend"
+      ],
+      "minutes_max": 60,
+      "cost_max_fen": 5000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0069",
+      "name": "番茄火锅",
+      "aliases": [],
+      "category": "特色餐",
+      "regions": [],
+      "tags": [
+        "火锅",
+        "酸鲜"
+      ],
+      "ingredients": [
+        "番茄",
+        "蔬菜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day"
+      ],
+      "minutes_max": 45,
+      "cost_max_fen": null,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0070",
+      "name": "麻辣香锅",
+      "aliases": [],
+      "category": "特色餐",
+      "regions": [],
+      "tags": [
+        "炒",
+        "麻辣"
+      ],
+      "ingredients": [
+        "蔬菜",
+        "辣椒"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [],
+      "minutes_max": 50,
+      "cost_max_fen": null,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0071",
+      "name": "寿喜锅",
+      "aliases": [],
+      "category": "特色餐",
+      "regions": [],
+      "tags": [
+        "火锅",
+        "甜咸"
+      ],
+      "ingredients": [
+        "牛肉",
+        "黄豆",
+        "蔬菜"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day"
+      ],
+      "minutes_max": 40,
+      "cost_max_fen": 5000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    },
+    {
+      "id": "core_0072",
+      "name": "韩式部队锅",
+      "aliases": [],
+      "category": "特色餐",
+      "regions": [],
+      "tags": [
+        "火锅",
+        "香辣"
+      ],
+      "ingredients": [
+        "猪肉",
+        "小麦",
+        "黄豆"
+      ],
+      "ingredients_complete": false,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "modes": [
+        "cook",
+        "eat_out"
+      ],
+      "themes": [
+        "rainy_day"
+      ],
+      "minutes_max": 35,
+      "cost_max_fen": 4000,
+      "familiarity": 0.5,
+      "sources": [
+        "editorial-v1"
+      ]
+    }
+  ]
+}
